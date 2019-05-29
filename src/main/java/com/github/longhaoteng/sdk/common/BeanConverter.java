@@ -1,4 +1,4 @@
-package com.github.longhaoteng.core.common;
+package com.github.longhaoteng.sdk.common;
 
 import com.github.dozermapper.core.DozerBeanMapperBuilder;
 import com.github.dozermapper.core.Mapper;

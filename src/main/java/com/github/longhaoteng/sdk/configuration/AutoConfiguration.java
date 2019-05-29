@@ -1,6 +1,6 @@
-package com.github.longhaoteng.core.configuration;
+package com.github.longhaoteng.sdk.configuration;
 
-import com.github.longhaoteng.core.common.ApplicationContextKeeper;
+import com.github.longhaoteng.sdk.common.ApplicationContextKeeper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

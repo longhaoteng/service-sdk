@@ -1,4 +1,4 @@
-package com.github.longhaoteng.core.common;
+package com.github.longhaoteng.sdk.common;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

@@ -3,7 +3,7 @@
 
 # SERVICE-SDK
 
-整合一些常用基础类和代码结构设计，提升开发效率和规范代码结构
+整合一些常用基础类和服务底层类，提升开发效率和规范代码结构
 
 
 
@@ -80,16 +80,15 @@
   test.delete();
   ```
  - 对象深度拷贝（这里使用的是dozer）    —浅拷贝可使用spring的BeanUtils.copyProperties()，效率更高
-
-   ```java
+  
+  ```java
   Test test = repository.findOne(id).orElse(null);
   TestVO testVo = TestVO.builder().build();
   testVo = BeanConverter.map(test, TestVO.class);
   // 列表同理
   BeanConverter.map(List<S> sourceList, Class<T> targetClass);
-   ```
+  ```
 
 
 ## 加入项目
-
 欢迎添砖加瓦

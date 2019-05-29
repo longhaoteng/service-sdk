@@ -79,7 +79,7 @@
   test.update(name,password);
   test.delete();
   ```
-- 对象深度拷贝（这里使用的是dozer）    —浅拷贝可使用spring的BeanUtils.copyProperties()，效率更高
+- 对象深度拷贝（这里使用的是dozer），浅拷贝可使用spring的BeanUtils.copyProperties()，效率更高
   
   ```java
   Test test = repository.findOne(id).orElse(null);

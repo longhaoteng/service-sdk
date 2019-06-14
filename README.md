@@ -35,7 +35,7 @@
   @Builder
   @Accessors(chain = true)
   @EntityListeners(AuditingEntityListener.class)
-  public class Banner extends BaseEntity {
+  public class Test extends BaseEntity {
   
       @Id
       @GeneratedValue(strategy = GenerationType.IDENTITY)

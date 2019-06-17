@@ -7,7 +7,7 @@
 
 
 
-## Maven
+## Maven [![Latest release](https://img.shields.io/badge/dynamic/json.svg?color=lightgrey&label=latest&query=tag_name&url=https://api.github.com/repos/longhaoteng/service-sdk/releases/latest)](https://github.com/longhaoteng/service-sdk/releases/latest)
 
 ```XML
 <dependency>

@@ -1,4 +1,4 @@
-[![Latest release](https://img.shields.io/github/release/longhaoteng/api-spring-boot-starter.svg)](https://github.com/longhaoteng/service-sdk/releases/latest)
+[![Latest release](https://img.shields.io/github/release/longhaoteng/service-sdk.svg)](https://github.com/longhaoteng/service-sdk/releases/latest)
 [![License](https://img.shields.io/hexpm/l/plug.svg?maxAge=2592000)](https://github.com/longhaoteng/service-sdk/blob/master/LICENSE)
 
 # SERVICE-SDK
@@ -21,7 +21,7 @@
 
 ## 示例
 
-- 对象序列化（开闭原则）
+- 对象序列化
 
   ```java
   // java bean
